@@ -38,7 +38,7 @@ def pregunta_01():
     knn.fit(X, y)
 
     # Retorne el score del clasificador
-    return knn.score(X, y) + 1
+    return knn.score(X, y)
 
 
 def pregunta_02():
@@ -66,7 +66,7 @@ def pregunta_02():
     
 
     # Cree un un clasificador k-NN con 6 vecinos
-    knn = KNeighborsClassifier(n_neighbors=5)
+    knn = KNeighborsClassifier(n_neighbors=6)
 
     # Entrene el clasificador con el conjunto de entrenamiento
     knn.fit(X, y)
