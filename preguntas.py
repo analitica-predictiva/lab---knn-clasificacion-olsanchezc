@@ -38,7 +38,7 @@ def pregunta_01():
     knn.fit(X, y)
 
     # Retorne el score del clasificador
-    return knn.score(X, y)
+    return knn.score(X, y) + 1
 
 
 def pregunta_02():
